@@ -1,34 +1,45 @@
-# Mantine Vite template
+# Geriatric Care Assessment
+
+A small React + TypeScript application for completing a geriatric care assessment.
 
 ## Features
 
-This template comes with the following features:
+- Geriatric Care Assessment form with 10 required fields
+- Mantine UI components
+- Date selection using Mantine DateInput
+- Zod schema validation
+- Cross-field validation for patient age and assessment dates
+- Sample patient data loader
+- 800ms simulated save operation
+- Loading state while saving
+- Displays the saved assessment after successful submission
+- Unit and component tests with Vitest and React Testing Library
 
-- [PostCSS](https://postcss.org/) with [mantine-postcss-preset](https://mantine.dev/styles/postcss-preset)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Storybook](https://storybook.js.org/)
-- [Vitest](https://vitest.dev/) setup with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- Oxlint setup for TypeScript and React sources
+## Tech Stack
 
-## npm scripts
+- React
+- TypeScript
+- Vite
+- Mantine
+- Mantine Form
+- Mantine Dates
+- Zod
+- Vitest
+- React Testing Library
+- Oxlint
+- Oxfmt
+- Stylelint
 
-## Build and dev scripts
+## Getting Started
 
-- `dev` – start development server
-- `build` – build production version of the app
-- `preview` – locally preview production build
+### Prerequisites
 
-### Testing scripts
+- Node.js 24+
+- Yarn 4
 
-- `typecheck` – checks TypeScript types
-- `lint` – runs oxlint and stylelint
-- `format:test` – checks files with oxfmt
-- `vitest` – runs vitest tests
-- `vitest:watch` – starts vitest watch
-- `test` – runs `vitest`, `format:test`, `lint` and `typecheck` scripts
+The project uses Yarn 4.18.0.
 
-### Other scripts
+### Install dependencies
 
-- `storybook` – starts storybook dev server
-- `storybook:build` – build production storybook bundle to `storybook-static`
-- `format:write` – formats all files with oxfmt
+```bash
+yarn install
